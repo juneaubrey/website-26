@@ -15,11 +15,19 @@ assets/images/          Art-directed placeholder images (SVG) and favicon
 
 ## Run locally
 
-Open `index.html` directly, or serve the folder:
+Open `index.html` directly, or:
 
 ```
-python3 -m http.server 8000
+npm run build   # copies the site into dist/
+npm start       # serves it on http://localhost:3000 (or $PORT)
 ```
+
+## Hosting
+
+No dependencies are required.
+
+- **Static hosting** (Netlify, Vercel, Cloudflare Pages, …): build command `npm run build`, output/publish directory `dist`.
+- **Node.js hosting**: build command `npm run build`, start command `npm start`. The server listens on `$PORT`.
 
 ## Before launch
 
