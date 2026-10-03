@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1040" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9cfbf"/><stop offset="1" stop-color="#b9ab97"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.25" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#f4ede1" stop-opacity="0.9"/><stop offset="1" stop-color="#f4ede1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4b443d"/><stop offset="1" stop-color="#2a2622"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.09 0"/></filter>
+  </defs>
+  <rect width="800" height="1040" fill="url(#bg)"/>
+  <rect width="800" height="1040" fill="url(#light)"/>
+  <path d="M400 300c-70 0-118 56-118 132 0 64 30 118 70 140l-2 44c-96 20-190 84-220 224h540c-30-140-124-204-220-224l-2-44c40-22 70-76 70-140 0-76-48-132-118-132z" fill="url(#fig)" opacity="0.9"/>
+  <rect width="800" height="1040" filter="url(#grain)"/>
+  <text x="40" y="1004" font-family="Inter, sans-serif" font-size="14" letter-spacing="3" fill="#f4ede1" opacity="0.7">PORTRAIT — REPLACE WITH PHOTOGRAPH</text>
+</svg>

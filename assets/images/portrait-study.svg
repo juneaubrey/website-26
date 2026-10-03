@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-label="Photograph placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2b302d"/><stop offset="0.55" stop-color="#4a4d46"/><stop offset="1" stop-color="#8f8676"/>
+    </linearGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe6d6"/><stop offset="1" stop-color="#cbbfa9"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.1 0"/></filter>
+  </defs>
+  <rect width="800" height="1100" fill="url(#bg)"/>
+  <rect x="520" y="120" width="220" height="520" fill="url(#win)" opacity="0.55"/>
+  <path d="M520 640 L760 640 L800 1100 L380 1100 Z" fill="#efe6d6" opacity="0.08"/>
+  <path d="M300 380c-56 0-92 46-92 106 0 50 22 92 54 110l-2 36c-80 18-150 78-170 200v268h420V832c-20-122-90-182-170-200l-2-36c32-18 54-60 54-110 0-60-36-106-92-106z" fill="#1c1f1d" opacity="0.92"/>
+  <rect width="800" height="1100" filter="url(#grain)"/>
+  <text x="40" y="1064" font-family="Inter, sans-serif" font-size="14" letter-spacing="3" fill="#efe6d6" opacity="0.6">PHOTOGRAPH — REPLACE</text>
+</svg>
