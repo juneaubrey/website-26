@@ -31,8 +31,7 @@ No dependencies are required.
 
 ## Before launch
 
-- **Photography** — replace the three placeholders in `assets/images/` with real photographs and update the `src` in `index.html`:
-  - `portrait.svg` → hero portrait (portrait format, ~4:5, natural window light, calm, direct gaze)
+- **Photography** — the hero uses `assets/images/hero.jpg` / `hero.webp` (16:9; June is kept in frame on phones via `object-position`). Replace the two remaining placeholders in `assets/images/` with real photographs and update the `src` in `index.html`:
   - `interior.svg` → a quiet, understated European interior or detail (3:2)
   - `portrait-study.svg` → June at work, in context (portrait format, ~8:11)
   Use JPG/WebP around 1600px on the long edge.

@@ -9,10 +9,12 @@
   <meta property="og:title" content="June Aubrey — Patterns. People. Change.">
   <meta property="og:description" content="I see patterns before they become obvious — and turn insight into meaningful change.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero.jpg">
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/hero.webp" type="image/webp">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -42,7 +44,12 @@
 
     <!-- ============ HERO ============ -->
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <canvas class="hero-field" data-pattern-field aria-hidden="true"></canvas>
+      <figure class="hero-media">
+        <picture>
+          <source srcset="assets/images/hero.webp" type="image/webp">
+          <img src="assets/images/hero.jpg" alt="June Aubrey walking through a sunlit colonnade in a camel coat" width="1672" height="941" fetchpriority="high">
+        </picture>
+      </figure>
       <div class="wrap hero-grid">
         <div class="hero-copy">
           <p class="eyebrow reveal">Patterns. People. Change.</p>
@@ -52,16 +59,10 @@
           </h1>
           <p class="hero-lede reveal">I see patterns before they become obvious — and turn insight into meaningful change.</p>
           <div class="hero-actions reveal">
-            <a href="#contact" class="btn btn-solid">Start a conversation <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="btn btn-hero">Start a conversation <span aria-hidden="true">→</span></a>
             <a href="#work" class="link-arrow">Explore my work <span aria-hidden="true">→</span></a>
           </div>
         </div>
-        <figure class="hero-portrait reveal">
-          <div class="photo photo-portrait">
-            <img src="assets/images/portrait.svg" alt="Portrait of June Aubrey" width="800" height="1040">
-          </div>
-          <figcaption class="caption"><span>June Aubrey</span><span>Strategic advisor · Est. 2003</span></figcaption>
-        </figure>
       </div>
       <div class="wrap hero-foot">
         <span class="hero-foot-item">23 years</span>
