@@ -31,8 +31,7 @@ No dependencies are required.
 
 ## Before launch
 
-- **Photography** — the hero uses `assets/images/hero.jpg` / `hero.webp` (16:9; June is kept in frame on phones via `object-position`). Replace the two remaining placeholders in `assets/images/` with real photographs and update the `src` in `index.html`:
-  - `interior.svg` → a quiet, understated European interior or detail (3:2)
+- **Photography** — the hero uses `assets/images/hero.jpg` / `hero.webp` (16:9; June is kept in frame on phones via `object-position`), the quote section `interior.jpg` / `interior.webp` (3:2). Replace the remaining placeholder in `assets/images/` with a real photograph and update the `src` in `index.html`:
   - `portrait-study.svg` → June at work, in context (portrait format, ~8:11)
   Use JPG/WebP around 1600px on the long edge.
 - **Email** — `hello@juneaubrey.com` is a placeholder; it appears in `index.html`, `imprint.html` and `assets/js/main.js`.
