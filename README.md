@@ -31,9 +31,7 @@ No dependencies are required.
 
 ## Before launch
 
-- **Photography** — the hero uses `assets/images/hero.jpg` / `hero.webp` (16:9; June is kept in frame on phones via `object-position`), the quote section `interior.jpg` / `interior.webp` (3:2). Replace the remaining placeholder in `assets/images/` with a real photograph and update the `src` in `index.html`:
-  - `portrait-study.svg` → June at work, in context (portrait format, ~8:11)
-  Use JPG/WebP around 1600px on the long edge.
+- **Photography** — all photographs are in place, each as WebP with a JPG fallback: `hero` (16:9; June is kept in frame on phones via `object-position`), `interior` (3:2, quote section) and `about` (3:4, about section). To replace one, keep the file names or update the `src`/`srcset` in `index.html`.
 - **Email** — `hello@juneaubrey.com` is a placeholder; it appears in `index.html`, `imprint.html` and `assets/js/main.js`.
 - **Contact form** — without a backend it opens the visitor's email client with the message pre-filled. To submit directly, point the form at a form service (e.g. Formspree) and adjust the submit handler in `main.js`.
 - **Legal** — complete `imprint.html` and review `privacy.html`. Consider self-hosting the fonts (Cormorant Garamond, Inter).

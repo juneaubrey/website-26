@@ -216,7 +216,7 @@ em { font-style: italic; }
 .photo { position: relative; overflow: hidden; background: var(--paper-2); }
 .photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.6s var(--ease); }
 .photo-portrait { aspect-ratio: 4 / 5.2; }
-.photo-tall { aspect-ratio: 8 / 11; }
+.photo-tall { aspect-ratio: 3 / 4; }
 .photo-landscape { aspect-ratio: 3 / 2; }
 .caption {
   display: flex; justify-content: space-between; gap: 16px;
